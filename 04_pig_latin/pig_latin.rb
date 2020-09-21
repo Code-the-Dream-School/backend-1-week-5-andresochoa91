@@ -15,4 +15,3 @@ def translate(w)
   w.split(" ").map{ |wo| validation(wo)}.join(" ")
 
 end
-puts translate("querer")
